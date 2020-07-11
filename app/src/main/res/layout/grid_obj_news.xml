@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:app="http://schemas.android.com/apk/res-auto"
+			  xmlns:tools="http://schemas.android.com/tools"
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:orientation="vertical"
+			  android:padding="0dp"
+			  android:background="@android:color/white"
+			  android:layout_margin="4dp">
+
+	<TextView
+		android:text="16.01.2017"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2"
+		android:textAlignment="center"/>
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:srcCompat="@drawable/h1"
+		android:id="@+id/imageView2"
+		android:adjustViewBounds="true"/>
+
+	<RatingBar
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/ratingBar"
+		style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+		android:isIndicator="false"/>
+
+	<TextView
+		android:text="TextView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView5"
+		android:textStyle="normal|italic"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="textPersonName"
+		android:ems="10"
+		android:id="@+id/editText2"
+		android:focusableInTouchMode="false"
+		android:hint="Your Comment"/>
+
+</LinearLayout>

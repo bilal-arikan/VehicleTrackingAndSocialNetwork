@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:orientation="vertical">
+
+	<Button
+		android:text="In Progress"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/buttonProcessed"
+		android:layout_weight="1"/>
+
+	<TextView
+		android:text="TextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView26"
+		android:layout_weight="1"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="210dp"
+		android:inputType="textPersonName"
+		android:ems="10"
+		android:id="@+id/editText20"
+		android:hint="Message for  owner of the denounce"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1">
+
+		<RadioButton
+			android:text="In Progress"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/radioButton3"
+			android:layout_weight="1"/>
+
+		<RadioButton
+			android:text="Complete"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/radioButton2"
+			android:layout_weight="1"/>
+
+		<RadioButton
+			android:text="Paused"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/radioButton"
+			android:layout_weight="1"/>
+	</LinearLayout>
+</LinearLayout>

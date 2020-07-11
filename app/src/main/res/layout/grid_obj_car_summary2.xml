@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:orientation="vertical">
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:srcCompat="@drawable/o2"
+		android:id="@+id/imageView"
+		android:layout_weight="1"
+		android:scaleType="fitCenter"/>
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="Car Mark/Model/Year"
+		android:textSize="10sp" />
+
+	<TextView
+		android:id="@+id/textView4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="Wolkswagen / - / 2015" />
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="bottom">
+
+		<Button
+			android:text="Edit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/button"
+			android:layout_weight="3"
+			android:textSize="10sp"
+			style="@style/Widget.AppCompat.Button.Small"
+			android:backgroundTint="@android:color/background_light"/>
+
+		<Button
+			android:text="Delete"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/button2"
+			android:layout_weight="1"
+			android:fontFamily="sans-serif-medium"
+			android:textSize="10sp"
+			style="@style/Widget.AppCompat.Button.Small"
+			android:background="@android:color/background_light"
+			android:textColor="@android:color/holo_red_dark"/>
+	</LinearLayout>
+</LinearLayout>

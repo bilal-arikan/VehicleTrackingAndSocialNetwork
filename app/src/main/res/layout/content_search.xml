@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:orientation="vertical">
+
+	<Button
+		android:text="SEARCH"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/buttonSearchCar"
+		android:layout_weight="1"/>
+
+	<TextView
+		android:text="Plate Number"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView20"
+		android:layout_weight="1"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:inputType="textPersonName"
+		android:ems="10"
+		android:id="@+id/editText16"
+		android:layout_weight="1"/>
+
+	<TextView
+		android:text="Brand/Model"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView21"
+		android:layout_weight="1"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="textPersonName"
+		android:ems="10"
+		android:id="@+id/editText17"
+		android:layout_weight="1"/>
+
+	<TextView
+		android:text="Color"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView22"
+		android:layout_weight="1"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="textPersonName"
+		android:ems="10"
+		android:id="@+id/editText18"
+		android:layout_weight="1"/>
+
+	<TextView
+		android:text="Owner"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView23"
+		android:layout_weight="1"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="textPersonName"
+		android:ems="10"
+		android:id="@+id/editText19"
+		android:layout_weight="1"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:id="@+id/nav_main"
+		android:title="Main Screen"
+		android:checkable="false"
+		android:checked="false"/>
+	<item
+		android:id="@+id/nav_search"
+		android:title="Authorized Search"/>
+	<item
+		android:id="@+id/nav_instructions"
+		android:title="Auth. Instructions"/>
+	<item
+		android:id="@+id/nav_denounce"
+		android:title="Denounce List"/>
+	<item
+		android:id="@+id/nav_logout"
+		android:title="Logout"/>
+	<item
+		android:id="@+id/nav_exit"
+		android:title="Exit"/>
+
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:app="http://schemas.android.com/apk/res-auto"
+			  xmlns:tools="http://schemas.android.com/tools"
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:orientation="vertical">
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:srcCompat="@drawable/o6"
+		android:id="@+id/imageView"
+		android:layout_weight="1"
+		android:scaleType="fitCenter"
+		android:cropToPadding="false"
+		android:adjustViewBounds="false"/>
+
+	<TextView
+		android:text="Plate Number"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView3"
+		android:layout_weight="1"
+		android:textSize="10sp"/>
+
+	<TextView
+		android:text="Model/ Brand / Year"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView4"
+		android:layout_weight="1"
+		/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="bottom">
+
+		<Button
+			android:text="Send COmment"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/buttonSendComment"
+			android:layout_weight="3"
+			android:textSize="10sp"
+			style="@style/Widget.AppCompat.Button.Small"
+			android:backgroundTint="@android:color/background_light"/>
+
+		<Button
+			android:text="Denounce"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/buttonDenounce"
+			android:layout_weight="1"
+			android:fontFamily="sans-serif-medium"
+			android:textSize="10sp"
+			style="@style/Widget.AppCompat.Button.Small"
+			android:background="@android:color/background_light"
+			android:textColor="@android:color/holo_red_dark"/>
+	</LinearLayout>
+</LinearLayout>
